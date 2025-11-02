@@ -48,8 +48,8 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 # Install dependencies
 pip install -r requirements.txt
 
-# Run scraper
-python scrape_mhl.py
-
 # Start FastAPI server
 uvicorn main:app --reload
+
+# Test MHL end points
+http://localhost:8000/stats/mhl
