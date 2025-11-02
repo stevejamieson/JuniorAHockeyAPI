@@ -1,6 +1,6 @@
 # 🏒 Junior A Hockey Stats Scraper
 
-A modular Python-based scraper for public Junior A hockey league sites across Canada. This project extracts player and team statistics from CJHL-affiliated leagues and exposes the data via a FastAPI backend, with optional storage in Cosmos DB or PostgreSQL.
+A modular Python-based scraper for public Junior A hockey league sites across Canada. This project extracts player and team statistics from CJHL-affiliated leagues and exposes the data via a FastAPI backend.
 
 ---
 
@@ -28,8 +28,7 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 |---------------|-------------------------------------|
 | Scraping      | `requests`, `BeautifulSoup`, `Playwright` |
 | Backend API   | `FastAPI`                          |
-| Database      | `Cosmos DB` (NoSQL) or `PostgreSQL` |
-| Deployment    | Azure Functions (optional)         |
+
 
 ---
 
@@ -37,8 +36,7 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 
 1. **Scrape** player and team stats from public league sites.
 2. **Normalize** and clean data for consistency across leagues.
-3. **Store** in Cosmos DB or PostgreSQL.
-4. **Expose** via FastAPI endpoints for dashboards or analytics.
+3. **Expose** via FastAPI endpoints for dashboards or analytics.
 
 ---
 
