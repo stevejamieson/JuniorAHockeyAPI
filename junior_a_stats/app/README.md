@@ -32,6 +32,23 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 
 ---
 
+---
+
+## 🧰 Player Model
+
+| Layer         | Detail                        |
+|---------------|-------------------------------------|
+| name          | `name`                              |
+| team          | `team`                              |
+| Position      | `Position`                          |
+| GP            | `GP`                                |
+| G             | `G`                                 |
+| A             | `A`                                 |
+| Points        | `Points`                            |
+
+
+---
+
 ## 🔄 Workflow Overview
 
 1. **Scrape** player and team stats from public league sites.
