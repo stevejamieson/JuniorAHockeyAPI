@@ -1,0 +1,13 @@
+# Web scraping
+beautifulsoup4
+requests
+playwright
+
+# FastAPI backend
+fastapi
+uvicorn[standard]
+
+# Data modeling
+pydantic
+
+
