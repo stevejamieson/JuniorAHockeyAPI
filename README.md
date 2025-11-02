@@ -1,18 +1,55 @@
-1. 🕷 Web Scraping Layer
-  + Tools --requests + BeautifulSoup: For static HTML pages.--Playwright For JavaScript-rendered content (e.g., dynamic tables).
+# 🏒 Junior A Hockey Stats Scraper
 
+A modular Python-based scraper for public Junior A hockey league sites across Canada. This project extracts player and team statistics from CJHL-affiliated leagues and exposes the data via a FastAPI backend, with optional storage in Cosmos DB or PostgreSQL.
 
+---
 
-    
-(https://www.cjhlhockey.com/en/statistics)
+## 📍 Target Leagues
 
+This scraper supports the following CJHL leagues:
 
-2.Leagues:
--MHL
--CCHL
--OJHL
--NOJHL
--SIJHL
--MJHL
--SJHL
--AJHL
+- **MHL** – Maritime Hockey League  
+- **LHJAAAQ** – Quebec Junior AAA Hockey League  
+- **CCHL** – Central Canada Hockey League  
+- **OJHL** – Ontario Junior Hockey League  
+- **NOJHL** – Northern Ontario Junior Hockey League  
+- **SIJHL** – Superior International Junior Hockey League  
+- **MJHL** – Manitoba Junior Hockey League  
+- **SJHL** – Saskatchewan Junior Hockey League  
+- **AJHL** – Alberta Junior Hockey League  
+
+Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
+
+---
+
+## 🧰 Tech Stack
+
+| Layer         | Tools Used                          |
+|---------------|-------------------------------------|
+| Scraping      | `requests`, `BeautifulSoup`, `Playwright` |
+| Backend API   | `FastAPI`                          |
+| Database      | `Cosmos DB` (NoSQL) or `PostgreSQL` |
+| Deployment    | Azure Functions (optional)         |
+
+---
+
+## 🔄 Workflow Overview
+
+1. **Scrape** player and team stats from public league sites.
+2. **Normalize** and clean data for consistency across leagues.
+3. **Store** in Cosmos DB or PostgreSQL.
+4. **Expose** via FastAPI endpoints for dashboards or analytics.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run scraper
+python scrape_mhl.py
+
+# Start FastAPI server
+uvicorn main:app --reload
