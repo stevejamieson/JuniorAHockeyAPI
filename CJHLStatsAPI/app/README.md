@@ -71,3 +71,55 @@ uvicorn main:app --reload
 
 # Test MHL end points
 http://localhost:8000/stats/mhl
+
+GET /stats/mhl
+[
+  {
+    "name": "Jack Hayne",
+    "position": "C",
+    "team": "CHA",
+    "GP": 18,
+    "G": 9,
+    "A": 20,
+    "Points": 29
+  },
+  {
+    "name": "Ben Cross",
+    "position": "LW",
+    "team": "CHA",
+    "GP": 17,
+    "G": 15,
+    "A": 11,
+    "Points": 26
+  },
+  {
+    "name": "Simon Mullen",
+    "position": "D",
+    "team": "SWC",
+    "GP": 15,
+    "G": 4,
+    "A": 21,
+    "Points": 25
+  },
+  {
+    "name": "Coen Miller",
+    "position": "LW",
+    "team": "SWC",
+    "GP": 13,
+    "G": 12,
+    "A": 12,
+    "Points": 24
+  },
+  {
+    "name": "Natan Grenier",
+    "position": "D",
+    "team": "WKS",
+    "GP": 17,
+    "G": 6,
+    "A": 18,
+    "Points": 24
+  }
+  // ...additional players omitted for brevity
+]
+
+
