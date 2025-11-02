@@ -32,6 +32,22 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 
 ---
 
+---
+
+## 🧰 Pandantic Object Modeling 
+
+| detail        |  Used                               |
+|---------------|-------------------------------------|
+| name      | `requests`, `BeautifulSoup`, `Playwright` |
+| team      | `FastAPI`                          |
+| Position  | `FastAPI`                          |
+| GP   | `FastAPI`                          |
+| G   | `FastAPI`                          |
+
+
+
+---
+
 ## 🔄 Workflow Overview
 
 1. **Scrape** player and team stats from public league sites.
