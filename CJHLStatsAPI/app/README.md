@@ -69,7 +69,7 @@ pip install -r requirements.txt
 # Start FastAPI server
 uvicorn main:app --reload
 
-# Test MHL end points
+# Test MHL end point
 http://localhost:8000/stats/mhl
 
 GET /stats/mhl
