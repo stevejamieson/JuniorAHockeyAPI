@@ -6,7 +6,7 @@ A modular Python-based scraper for public Junior A hockey league sites across Ca
 
 ## 📍 Target Leagues
 
-This scraper supports the following CJHL leagues:
+This scraper supports the following CJHL leagues: 9 Leagues - 118 Jr A Teams
 
 - **MHL** – Maritime Hockey League  
 - **LHJAAAQ** – Quebec Junior AAA Hockey League  
